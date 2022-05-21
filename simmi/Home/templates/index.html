@@ -1,0 +1,30 @@
+{% extends 'base.html'%} 
+{% block style %}
+<style>
+    body
+    {
+        background: url("https://images.unsplash.com/photo-1617450365226-9bf28c04e130?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070");
+        /* background-position: center; */
+        background-size: cover;
+    }
+
+    .container
+    {
+        margin-top: 10%;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.552) , rgba(255, 255, 255, 0));
+    }
+
+    .container:hover
+    {
+        /* background: rgba(254, 255, 255, 0.471); */
+        background-image: linear-gradient(to left, rgba(255, 255, 255, 0.552) , rgba(255, 255, 255, 0.19));
+    }
+</style>
+{% endblock %}
+{% block content %}
+
+<div class="container">
+    <h2>SIMMI FOUNDATION</h2>
+    <p class="para">Smart India Multi Management Institute is a pan India NGO registered in Haryana, India; carrying out welfare projects on education, healthcare, livelihood and women empowerment. We believe that unless members of the civil society are involved proactively in the process of development, sustainable change will not happen. Based on this, Simmi Foundation sensitizes and engages the civil society, making it an active partner in all its welfare initiatives.</p>
+</div>
+{% endblock %}

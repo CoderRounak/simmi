@@ -1,0 +1,23 @@
+{% extends 'base.html'%}
+{% block content %}
+
+<div class="container" >
+    <h1 style="padding-left: 10px;">CONTACT</h1>
+
+    <div class="col-lg-4 col-md-6 text-center" >
+        <div class="card box" id="{{product.id}}">
+            
+            <div class="card-body">
+                <h5 class="card-title">Name : {{contact.name}}</h5>
+                <p class="card-text">City : {{contact.city}}</p>
+                <p class="card-text">State : {{contact.state}}</p>
+                <p class="card-text">Phone Number : {{contact.phone}}</p>
+                <p class="card-text">E-mail : {{contact.email}}</p>
+                <p class="card-text">Creation Date-Time : {{contact.create_date}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
